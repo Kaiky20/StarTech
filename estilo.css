@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    position: static;
+}
+body{
+    
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+nav{
+    background-color: rgba(6, 22, 47, 1);
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo a{
+    text-decoration: none;
+    color:rgba(244, 203, 38, 1);
+    font-size: 35px;
+    font-weight: 600;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 1px;
+}
+nav li{
+    margin-left: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color:rgba(244, 203, 38, 1);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+nav li a:hover{
+    background-color:rgba(244, 203, 38, 1);
+    color: black;
+}
+.banner{
+    height: 100vh;
+    background-color:rgba(6, 22, 47, 1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Gmail
+{
+    width: 120px;
+    height: 120px;
+   margin-right: 200px;
+   margin-left: 100px;
+   margin-top: 10px;
+   margin-bottom: 150px;
+   color: rgba(244, 203, 38, 1);
+   font-size: 15px;
+   
+
+}
+
+.Facebook{
+    width: 120px;
+    height: 120px;
+   margin-right: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 250px;
+    
+  
+}
+.Whatsapp{
+    width: 120px;
+    height: 120px;
+    margin-right: 100px ;
+    margin-bottom: 150px;
+    color: rgba(244, 203, 38, 1);
+    font-size: 15px;
+    font-style: normal;
+
+}
+
+.Instagram{
+    width: 120px;
+    height: 120px;
+    margin-right: 200px;
+    margin-bottom: 150px;
+    font-size: 15px;
+ 
+}
+
+
+.Rodapé{
+    background-color:rgba(244, 203, 38, 1);
+    color: rgba(6, 22, 47, 1);
+    display: flex;
+    height: 50px;
+    
+
+   
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+background:#333;
+}
+
+::-webkit-scrollbar-thumb {
+background: rgba(244, 203, 38, 1);
+}
+
+
+
+  .banner .Instagram a{
+    position: absolute;
+    color: rgba(244, 203, 38, 1);
+    text-decoration: none;   
+    top: 640px;
+    left: 680px;
+   
+    
+  }
+  .banner .Instagram a:hover{
+    background-color:rgba(244, 203, 38, 1);
+    color: rgba(6, 22, 47, 1);
+  }
+
+  .banner .Gmail a{
+    position: absolute;
+    color: rgba(244, 203, 38, 1);
+    text-decoration: none;   
+    top: 640px;
+    left: 1280px;
+    border-radius: 5px;
+    transition: 0.3s;
+    
+  }
+  .banner .Gmail a:hover{
+    background-color:rgba(244, 203, 38, 1);
+    color: rgba(6, 22, 47, 1);
+  }
+  .banner .Facebook a{
+    position: absolute;
+    color: rgba(244, 203, 38, 1);
+    text-decoration: none;   
+    top: 640px;
+    left: 400px;
+    
+    
+  }
+  .banner .Facebook a:hover{
+    background-color:rgba(244, 203, 38, 1);
+    color: rgba(6, 22, 47, 1);
+  }
+
+  .banner .Whatsapp p{
+
+    position: absolute;
+    color: rgba(244, 203, 38, 1);
+    text-decoration: none;   
+    top: 640px;
+    left: 1000px;
+   
+    
+  }
+  h4{
+    margin-left: 130px;
+    
+}
+ 
