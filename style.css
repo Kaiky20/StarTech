@@ -49,7 +49,7 @@ nav li a:hover{
 }
 .banner{
     height: 100vh;
-   background-color:  rgba(6, 22, 47, 1);;
+   background-color:  rgba(6, 22, 47, 1);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -152,6 +152,7 @@ a {
 
   h4{
     margin-left: 170px;
+    position: absolute;
     
 }
 .menu-icon{
@@ -176,12 +177,12 @@ a {
     left: 0;
 }
 .menu-mobile .icon-close{
-    margin-left: 40px;
-    top: 40px;
-    right: 40px;
+    margin-left: 100px;
+    top: 20px;
+    right: 20px;
     color:rgb(255, 255, 255);
     cursor: pointer;
-    font-size: 30px;
+    font-size: 10px;
 }
     @media (max-width: 800px) {
         .menu-desktop 
@@ -198,7 +199,7 @@ a {
         }
 
         .texto .titulo .sub_titulo {
-            font-size: 40px;
+            font-size: 20px;
         }
     }
     
