@@ -45,7 +45,21 @@
         </div>
         
     </section>
-   
+    <script>
+        var menuIcon = document.querySelector('.menu-icon');
+        var menuMobile = document.querySelector('.menu-mobile');
+        var iconClose = document.querySelector('.menu-mobile .icon-close');
+
+        menuIcon.addEventListener('click',function()
+        {
+        menuMobile.classList.add('ativo')
+        });
+
+        iconClose.addEventListener('click',function()
+        {
+        menuMobile.classList.remove('ativo')
+        });
+    </script>
    
     <footer class="Rodapé">
       

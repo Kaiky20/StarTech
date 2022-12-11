@@ -28,7 +28,21 @@
         <div class="Gmail" ><img src="img/gmail.png"  width="85" height="85" > <a href="https://mail.google.com/mail/u/3/#inbox?compose=new">StarTechEventos@gmail.com</a></div>
        
     </section>
-   
+    <script>
+        var menuIcon = document.querySelector('.menu-icon');
+        var menuMobile = document.querySelector('.menu-mobile');
+        var iconClose = document.querySelector('.menu-mobile .icon-close');
+
+        menuIcon.addEventListener('click',function()
+        {
+        menuMobile.classList.add('ativo')
+        });
+
+        iconClose.addEventListener('click',function()
+        {
+        menuMobile.classList.remove('ativo')
+        });
+    </script>
     <footer class="Rodapé">
         <h4> StarTech Eventos Escolares      ETEC Horácio Augusto Da Silveira R. Alcântara, 113 - Vila Guilherme, São Paulo - SP, 02110-010 © 2022 StarTech, Todos os direitos Reservados</h4> 
       </footer>
