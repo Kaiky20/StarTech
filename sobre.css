@@ -188,6 +188,7 @@ h4{
 .menu-mobile.ativo{
     left: 0;
 }
+
 .menu-mobile .icon-close{
     margin-left: 100px;
     top: 20px;
@@ -196,6 +197,7 @@ h4{
     cursor: pointer;
     font-size: 10px;
 }
+
     @media (max-width: 800px) {
         .menu-desktop 
         {

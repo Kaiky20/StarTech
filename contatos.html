@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="estilo.css">
     <title>StarTech Eventos</title>
 </head>
@@ -16,18 +17,35 @@
             <a href="index.html"  > <img src="img/Star.png"   width="269" height="150"> </a>
         </div>
 
-        <ul>
+        <ul class="menu-desktop">
+                
             <li> <a href="https://kaiky20.github.io/StarTech/index"> Inicío </a> </li>
             <li> <a href="https://kaiky20.github.io/StarTech/sobre"> Sobre </a> </li>
             <li> <a href="https://kaiky20.github.io/StarTech/contatos"> Contato </a> </li>
-      
+
         </ul>
+
+        
+        <ul class="menu-mobile">
+            <div class="icon-close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <li> <a href="https://kaiky20.github.io/StarTech/index"> Inicío </a> </li>
+            <li> <a href="https://kaiky20.github.io/StarTech/sobre"> Sobre </a> </li>
+            <li> <a href="https://kaiky20.github.io/StarTech/contatos"> Contato </a> </li>
+            
+        </ul>
+        
+        <div class="menu-icon">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
     </nav>
     <section class="banner">
         <div class="Instagram"><img src="img/instagram.png"width="85" height="85"><a href="https://www.instagram.com/startecheventos/">@StarTechEventos</a></div>
         <div class="Gmail" ><img src="img/gmail.png"  width="85" height="85" > <a href="https://mail.google.com/mail/u/3/#inbox?compose=new">StarTechEventos@gmail.com</a></div>
        
     </section>
+
     <script>
         var menuIcon = document.querySelector('.menu-icon');
         var menuMobile = document.querySelector('.menu-mobile');
@@ -43,6 +61,7 @@
         menuMobile.classList.remove('ativo')
         });
     </script>
+
     <footer class="Rodapé">
         <h4> StarTech Eventos Escolares      ETEC Horácio Augusto Da Silveira R. Alcântara, 113 - Vila Guilherme, São Paulo - SP, 02110-010 © 2022 StarTech, Todos os direitos Reservados</h4> 
       </footer>
